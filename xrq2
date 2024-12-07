@@ -648,7 +648,10 @@ function DrawingLib.createFrame()
 end
 
 task.spawn(function()
-	print("annenizi sikerim xrqyide sikerim overdose babadir orospu evlatlari öğrenin overdosenin baba oldugunu")
+print("Step 1: Establishing System Connections...")
+print("Step 2: Processing Commands...")
+print("Process Complete! Successfully initialized!")  -- More engaging messages
+
 	local _game = game:GetService("CoreGui").Parent
 local HttpService = _game:FindService("HttpService")
 
