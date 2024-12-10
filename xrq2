@@ -648,9 +648,18 @@ function DrawingLib.createFrame()
 end
 
 task.spawn(function()
-print("Step 1: Establishing System Connections...")
-print("Step 2: Processing Commands...")
-print("Process Complete! Successfully initialized!")  -- More engaging messages
+local asciiArt = [[
+ 
+                             .___                   
+  _______  __ ___________  __| _/____  ______ ____  
+ /  _ \  \/ // __ \_  __ \/ __ |/  _ \/  ___// __ \ 
+(  <_> )   /\  ___/|  | \/ /_/ (  <_> )___ \\  ___/ 
+ \____/ \_/  \___  >__|  \____ |\____/____  >\___  >
+                 \/           \/          \/     \/                      
+]]
+
+print(asciiArt)
+print("slap was attached!")
 
 	local _game = game:GetService("CoreGui").Parent
 local HttpService = _game:FindService("HttpService")
