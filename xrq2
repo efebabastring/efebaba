@@ -658,7 +658,7 @@ local asciiArt = [[
                  \/           \/          \/     \/      (hexcryptor)        
 ]]
 
---print(asciiArt)
+print(asciiArt)
 --print("slap was attached!")
 
 	local _game = game:GetService("CoreGui").Parent
